@@ -1,6 +1,38 @@
-#################### DATE: 10.7.2013 ####################
-Camera: Ready,OK		20:57:39.#################### DATE: 10.7.2013 ####################
-Camera: Ready,OK		21:24:40.#################### DATE: 10.7.2013 ####################
-Camera: Ready,OK		21:32:6.#################### DATE: 10.7.2013 ####################
-Camera: Ready,OK		21:32:53.#################### DATE: 10.7.2013 ####################
-Camera: Ready,OK		21:33:27.
+################################# DATE: 12.7.2013 #################################
+Timestamp	Device				Status			Value
+16:3:32		Finch				OK.			Active
+16:3:32		LED_1				OK.			255,0,0 RGB
+16:3:32		LED_2				OK.			0,255,0 RGB
+16:3:32		LED_3				OK.			0,0,255 RGB
+16:3:32		Buzzer				OK.			0.1s,700Hz
+16:3:32		Thermometer			OK.			-1.25 C
+16:3:32		Left Wheel			OK.			255m/s
+16:3:32		Right Wheel			OK.			255m/s
+16:3:32		Accelerometer			OK.			acceleration xyz  0.40  0.10  1.15           m/s
+16:3:32		Finch				OK.			Idle
+16:3:32		Camera				OK.			Active
+################################# DATE: 12.7.2013 #################################
+Timestamp	Device				Status			Value
+16:3:54		Finch				OK.			Active
+16:3:54		LED_1				OK.			255,0,0 RGB
+16:3:54		LED_2				OK.			0,255,0 RGB
+16:3:54		LED_3				OK.			0,0,255 RGB
+16:3:54		Buzzer				OK.			0.1s,700Hz
+16:3:54		Thermometer			OK.			-0.833333333333 C
+16:3:54		Left Wheel			OK.			255m/s
+16:3:54		Right Wheel			OK.			255m/s
+16:3:54		Accelerometer			OK.			acceleration xyz -0.20 -0.05  0.95           m/s
+16:3:54		Finch				OK.			Idle
+16:3:54		Camera				OK.			Active
+################################# DATE: 12.7.2013 #################################
+Timestamp	Device				Status			Value
+16:5:2		Finch				OK.			Active
+16:5:2		LED_1				OK.			255,0,0 RGB
+16:5:2		LED_2				OK.			0,255,0 RGB
+16:5:2		LED_3				OK.			0,0,255 RGB
+16:5:2		Buzzer				OK.			0.1s,700Hz
+16:5:2		Thermometer			OK.			0.0 C
+16:5:2		Left Wheel			OK.			255m/s
+16:5:2		Right Wheel			OK.			255m/s
+16:5:2		Accelerometer			OK.			acceleration xyz  0.20  0.15  1.20           m/s
+16:5:2		Finch				OK.			Idle
