@@ -36,3 +36,199 @@ Timestamp	Device				Status			Value
 16:5:2		Right Wheel			OK.			255m/s
 16:5:2		Accelerometer			OK.			acceleration xyz  0.20  0.15  1.20           m/s
 16:5:2		Finch				OK.			Idle
+################################# DATE: 21.7.2013 #################################
+Timestamp	Device				Status			Value
+13:59:19		Finch				OK.			Active
+13:59:19		LED_1				OK.			255,0,0 RGB
+13:59:19		LED_2				OK.			0,255,0 RGB
+13:59:19		LED_3				OK.			0,0,255 RGB
+13:59:19		Buzzer				OK.			0.1s,700Hz
+13:59:19		Thermometer			OK.			-27.9166666667 C
+13:59:19		Left Wheel			OK.			255m/s
+13:59:19		Right Wheel			OK.			255m/s
+13:59:19		Accelerometer			OK.			acceleration xyz  0.00  0.00  0.00           m/s
+13:59:19		Finch				OK.			Idle
+################################# DATE: 21.7.2013 #################################
+Timestamp	Device				Status			Value
+14:1:52		Finch				OK.			Active
+14:1:52		LED_1				OK.			255,0,0 RGB
+14:1:52		LED_2				OK.			0,255,0 RGB
+14:1:52		LED_3				OK.			0,0,255 RGB
+14:1:52		Buzzer				OK.			0.1s,700Hz
+14:1:52		Thermometer			OK.			None C
+14:1:52		Left Wheel			OK.			255m/s
+14:1:52		Right Wheel			OK.			255m/s
+14:1:52		Accelerometer			OK.			None m/s
+14:1:52		Finch				OK.			Idle
+################################# DATE: 21.7.2013 #################################
+Timestamp	Device				Status			Value
+14:6:26		Finch				OK.			Active
+14:6:26		LED_1				OK.			255,0,0 RGB
+14:6:26		LED_2				OK.			0,255,0 RGB
+14:6:26		LED_3				OK.			0,0,255 RGB
+14:6:26		Buzzer				OK.			0.1s,700Hz
+14:6:26		Thermometer			OK.			-27.9166666667 C
+14:6:26		Left Wheel			OK.			255m/s
+14:6:26		Right Wheel			OK.			255m/s
+14:6:26		Accelerometer			OK.			acceleration xyz  0.00  0.00  0.00           m/s
+14:6:26		Finch				OK.			Idle
+14:6:26		Camera				OK.			Active
+################################# DATE: 21.7.2013 #################################
+Timestamp	Device				Status			Value
+14:14:43		Finch				OK.			Active
+14:14:43		LED_1				OK.			255,0,0 RGB
+14:14:43		LED_2				OK.			0,255,0 RGB
+14:14:43		LED_3				OK.			0,0,255 RGB
+14:14:43		Buzzer				OK.			0.1s,700Hz
+14:14:43		Thermometer			OK.			26.6666666667 C
+14:14:43		Left Wheel			OK.			255m/s
+14:14:43		Right Wheel			OK.			255m/s
+14:14:43		Accelerometer			OK.			acceleration xyz  0.15 -0.10  1.05           m/s
+14:14:43		Finch				OK.			Idle
+14:14:43		Camera				OK.			Active
+################################# DATE: 21.7.2013 #################################
+Timestamp	Device				Status			Value
+14:29:5		Finch				OK.			Active
+14:29:5		LED_1				OK.			255,0,0 RGB
+14:29:5		LED_2				OK.			0,255,0 RGB
+14:29:5		LED_3				OK.			0,0,255 RGB
+14:29:5		Buzzer				OK.			0.1s,700Hz
+14:29:5		Thermometer			OK.			-27.0833333333 C
+14:29:5		Left Wheel			OK.			255m/s
+14:29:5		Right Wheel			OK.			255m/s
+14:29:5		Accelerometer			OK.			acceleration xyz  0.15 -0.10  1.05           m/s
+14:29:5		Finch				OK.			Idle
+14:29:5		Camera				OK.			Active
+################################# DATE: 21.7.2013 #################################
+Timestamp	Device				Status			Value
+14:39:49		Finch				OK.			Active
+14:39:49		LED_1				OK.			255,0,0 RGB
+14:39:49		LED_2				OK.			0,255,0 RGB
+14:39:49		LED_3				OK.			0,0,255 RGB
+14:39:49		Buzzer				OK.			0.1s,700Hz
+14:39:49		Thermometer			OK.			None C
+14:39:49		Left Wheel			OK.			255m/s
+14:39:49		Right Wheel			OK.			255m/s
+14:39:49		Accelerometer			OK.			None m/s
+14:39:49		Finch				OK.			Idle
+14:39:49		Camera				OK.			Active
+################################# DATE: 21.7.2013 #################################
+Timestamp	Device				Status			Value
+14:42:10		Finch				OK.			Active
+14:42:10		LED_1				OK.			255,0,0 RGB
+14:42:10		LED_2				OK.			0,255,0 RGB
+14:42:10		LED_3				OK.			0,0,255 RGB
+14:42:10		Buzzer				OK.			0.1s,700Hz
+14:42:10		Thermometer			OK.			9.16666666667 C
+14:42:10		Left Wheel			OK.			255m/s
+14:42:10		Right Wheel			OK.			255m/s
+14:42:10		Accelerometer			OK.			acceleration xyz -0.35 -0.35  1.05           m/s
+14:42:10		Finch				OK.			Idle
+14:42:10		Camera				OK.			Active
+################################# DATE: 21.7.2013 #################################
+Timestamp	Device				Status			Value
+14:43:52		Finch				OK.			Active
+14:43:52		LED_1				OK.			255,0,0 RGB
+14:43:52		LED_2				OK.			0,255,0 RGB
+14:43:52		LED_3				OK.			0,0,255 RGB
+14:43:52		Buzzer				OK.			0.1s,700Hz
+14:43:52		Thermometer			OK.			None C
+14:43:52		Left Wheel			OK.			255m/s
+14:43:52		Right Wheel			OK.			255m/s
+14:43:52		Accelerometer			OK.			None m/s
+14:43:52		Finch				OK.			Idle
+14:43:52		Camera				OK.			Active
+################################# DATE: 21.7.2013 #################################
+Timestamp	Device				Status			Value
+14:44:37		Finch				OK.			Active
+14:44:37		LED_1				OK.			255,0,0 RGB
+14:44:37		LED_2				OK.			0,255,0 RGB
+14:44:37		LED_3				OK.			0,0,255 RGB
+14:44:37		Buzzer				OK.			0.1s,700Hz
+14:44:37		Thermometer			OK.			16.6666666667 C
+14:44:37		Left Wheel			OK.			255m/s
+14:44:37		Right Wheel			OK.			255m/s
+14:44:37		Accelerometer			OK.			acceleration xyz -0.35 -0.20  1.05           m/s
+14:44:37		Finch				OK.			Idle
+14:44:37		Camera				OK.			Active
+################################# DATE: 23.7.2013 #################################
+Timestamp	Device				Status			Value
+################################# DATE: 23.7.2013 #################################
+Timestamp	Device				Status			Value
+################################# DATE: 23.7.2013 #################################
+Timestamp	Device				Status			Value
+################################# DATE: 23.7.2013 #################################
+Timestamp	Device				Status			Value
+13:18:47		Finch				OK.			Active
+13:18:47		LED_1				OK.			255,0,0 RGB
+13:18:47		LED_2				OK.			0,255,0 RGB
+13:18:47		LED_3				OK.			0,0,255 RGB
+13:18:47		Buzzer				OK.			0.1s,700Hz
+13:18:47		Thermometer			OK.			-27.9166666667 C
+13:18:47		Left Wheel			OK.			255m/s
+13:18:47		Right Wheel			OK.			255m/s
+13:18:47		Accelerometer			OK.			acceleration xyz  0.00  0.00  0.00           m/s
+13:18:47		Finch				OK.			Idle
+13:18:47		Camera				OK.			Active
+################################# DATE: 23.7.2013 #################################
+Timestamp	Device				Status			Value
+13:20:53		Finch				OK.			Active
+13:20:53		LED_1				OK.			255,0,0 RGB
+13:20:53		LED_2				OK.			0,255,0 RGB
+13:20:53		LED_3				OK.			0,0,255 RGB
+13:20:53		Buzzer				OK.			0.1s,700Hz
+13:20:53		Thermometer			OK.			-20.4166666667 C
+13:20:53		Left Wheel			OK.			255m/s
+13:20:53		Right Wheel			OK.			255m/s
+13:20:53		Accelerometer			OK.			acceleration xyz -0.10 -0.05  1.05           m/s
+13:20:53		Finch				OK.			Idle
+13:20:53		Camera				OK.			Active
+13:22:2		Camera				OK.			Active
+################################# DATE: 23.7.2013 #################################
+Timestamp	Device				Status			Value
+13:22:2		Finch				OK.			Active
+13:22:2		LED_1				OK.			255,0,0 RGB
+13:22:2		LED_2				OK.			0,255,0 RGB
+13:22:2		LED_3				OK.			0,0,255 RGB
+13:22:2		Buzzer				OK.			0.1s,700Hz
+13:22:2		Thermometer			OK.			-14.1666666667 C
+13:22:2		Left Wheel			OK.			255m/s
+13:22:2		Right Wheel			OK.			255m/s
+13:22:2		Accelerometer			OK.			acceleration xyz -0.10 -0.05  1.05 tap shake m/s
+13:22:2		Finch				OK.			Idle
+################################# DATE: 30.7.2013 #################################
+Timestamp	Device				Status			Value
+11:34:45		Finch				OK.			Active
+11:34:45		LED_1				OK.			255,0,0 RGB
+11:34:45		LED_2				OK.			0,255,0 RGB
+11:34:45		LED_3				OK.			0,0,255 RGB
+11:34:45		Buzzer				OK.			0.1s,700Hz
+11:34:45		Thermometer			OK.			-27.9166666667 C
+11:34:45		Left Wheel			OK.			255m/s
+11:34:45		Right Wheel			OK.			255m/s
+11:34:45		Accelerometer			OK.			acceleration xyz  0.00  0.00  0.00           m/s
+11:34:45		Finch				OK.			Idle
+################################# DATE: 30.7.2013 #################################
+Timestamp	Device				Status			Value
+11:42:2		Finch				OK.			Active
+11:42:2		LED_1				OK.			255,0,0 RGB
+11:42:2		LED_2				OK.			0,255,0 RGB
+11:42:2		LED_3				OK.			0,0,255 RGB
+11:42:2		Buzzer				OK.			0.1s,700Hz
+11:42:2		Thermometer			OK.			None C
+11:42:2		Left Wheel			OK.			255m/s
+11:42:2		Right Wheel			OK.			255m/s
+11:42:2		Accelerometer			OK.			None m/s
+11:42:2		Finch				OK.			Idle
+################################# DATE: 30.7.2013 #################################
+Timestamp	Device				Status			Value
+11:44:5		Finch				OK.			Active
+11:44:5		LED_1				OK.			255,0,0 RGB
+11:44:5		LED_2				OK.			0,255,0 RGB
+11:44:5		LED_3				OK.			0,0,255 RGB
+11:44:5		Buzzer				OK.			0.1s,700Hz
+11:44:5		Thermometer			OK.			20.4166666667 C
+11:44:5		Left Wheel			OK.			255m/s
+11:44:5		Right Wheel			OK.			255m/s
+11:44:5		Accelerometer			OK.			acceleration xyz  0.15 -0.20  1.00           m/s
+11:44:5		Finch				OK.			Idle
