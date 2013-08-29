@@ -1,11 +1,15 @@
 import pygame.camera
 from datarecorder import DataRecorder
+import datetime
 
 camera = None
 fdr = None
+now = None
+currentTime = None
 class Camera(object):
-	def __init__(self):
-		global camera
+	def __init__(self, now):
+		self.now = now
+		currentTime = str(self.now.hour)+":"+str(self.now.minute)+":"+str(self.now.second)
 		pygame.camera.init()
 
 	def setCamera(self):
@@ -25,13 +29,19 @@ class Camera(object):
 		camera.stop()
 
 	def writeCameraStatus(self):
+		global camera
+		global now
 		fdr = DataRecorder()
 		fdr.openFDR()
-       		if self.camera is None:
-        	    	camStatus = ["\t\tCamera\t\t\t\tNot Connected.\t\t\tInactive\n"]
+       		if camera is None:
+			now = datetime.datetime.now()
+			currentTime = str(now.hour)+":"+str(now.minute)+":"+str(now.second)
+        	    	camStatus = [currentTime+"\t\tCamera\t\t\t\tNot Connected.\t\t\tInactive\n"]
 			sys.exit(0)
         	else:
-            		camStatus = ["\t\tCamera\t\t\t\tOK.\t\t\tActive\n"]
+			now = datetime.datetime.now()
+			currentTime = str(self.now.hour)+":"+str(self.now.minute)+":"+str(self.now.second)
+            		camStatus = [currentTime+"\t\tCamera\t\t\t\tOK.\t\t\tActive\n"]
 
     		fdr.writeToFDR(camStatus)
 		fdr.closeFDR()
