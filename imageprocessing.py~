@@ -10,6 +10,7 @@ import cv2
 import os
 import glob
 from datarecorder import DataRecorder
+import datetime
 
 counter = 0
 fdr = None
@@ -108,32 +109,98 @@ class ImageProcessing(object):
 		global counter
 		global idr
 		global image_Data
-    		imgh = 0
+    		global imgh
+		global previous_Height
+		global previous_Width
+		idr = DataRecorder()
+	    	imgh = 0
     	    	colnum = 0
     	    	cell_Height = 0
     	    	current_Cell_Height = 0
+	    	cell_Width = 0
+    	    	current_Cell_Width = 0
 	    	address = Otsu_path+str(counter)+".jpg"
-		print address
             	image = Image.open(address)
             	imwidth, imheight = image.size
             	pix = image.load()
             	impix = (126, 0, 0)
-            	image_Data = [0 for i in xrange(2)]
-            	cell_Height = imheight * 0.5
-            	current_Cell_Height = current_Cell_Height + cell_Height
-            	self.countRedPixels(imwidth, current_Cell_Height, colnum, impix, pix)
+            	image_Data = [0 for i in xrange(16)]
+            	cell_Height = imheight * 0.25
+	    	cell_Width = imwidth * 0.25
+            	current_Cell_Height = current_Cell_Height + cell_Height #150
+	    	current_Cell_Width = current_Cell_Width + cell_Width #200
+            	self.countRedPixels(current_Cell_Width, current_Cell_Height, colnum, impix, pix)
+	    	colnum = colnum + 1
+	    	current_Cell_Width = current_Cell_Width + cell_Width #400
+            	self.countRedPixels(current_Cell_Width, current_Cell_Height, colnum, impix, pix)
             	colnum = colnum + 1
-            	current_Cell_Height = current_Cell_Height + cell_Height
-            	self.countRedPixels(imwidth, current_Cell_Height, colnum, impix, pix)
-            	colnum = 0
-            	data = ""
-            	while colnum<2:
-			idr.openIDR()
-                    	data = data + str(image_Data[i])+","
-		    	colnum = colnum + 1
-		data = data + "?\n"
+	    	current_Cell_Width = current_Cell_Width + cell_Width #600
+            	self.countRedPixels(current_Cell_Width, current_Cell_Height, colnum, impix, pix)
+            	colnum = colnum + 1
+	    	current_Cell_Width = current_Cell_Width + cell_Width #800
+            	self.countRedPixels(current_Cell_Width, current_Cell_Height, colnum, impix, pix)
+	    	previous_Height = imgh #150
+	    	previous_Width = 0
+	    	current_Cell_Width = 0
+	    	current_Cell_Height = current_Cell_Height + cell_Height #300
+	    	current_Cell_Width = current_Cell_Width + cell_Width #200
+	    	colnum = colnum + 1
+            	self.countRedPixels(current_Cell_Width, current_Cell_Height, colnum, impix, pix)
+            	colnum = colnum + 1
+	    	current_Cell_Width = current_Cell_Width + cell_Width #400
+            	self.countRedPixels(current_Cell_Width, current_Cell_Height, colnum, impix, pix)
+            	colnum = colnum + 1
+	    	current_Cell_Width = current_Cell_Width + cell_Width #600
+            	self.countRedPixels(current_Cell_Width, current_Cell_Height, colnum, impix, pix)
+            	colnum = colnum + 1
+	    	current_Cell_Width = current_Cell_Width + cell_Width #800
+            	self.countRedPixels(current_Cell_Width, current_Cell_Height, colnum, impix, pix)
+	    	previous_Height = imgh
+	    	previous_Width = 0
+	    	current_Cell_Width = 0
+	    	current_Cell_Height = current_Cell_Height + cell_Height #450
+	    	current_Cell_Width = current_Cell_Width + cell_Width #200
+	    	colnum = colnum + 1
+            	self.countRedPixels(current_Cell_Width, current_Cell_Height, colnum, impix, pix)
+            	colnum = colnum + 1
+	    	current_Cell_Width = current_Cell_Width + cell_Width #400
+            	self.countRedPixels(current_Cell_Width, current_Cell_Height, colnum, impix, pix)
+            	colnum = colnum + 1
+	    	current_Cell_Width = current_Cell_Width + cell_Width #600
+            	self.countRedPixels(current_Cell_Width, current_Cell_Height, colnum, impix, pix)
+            	colnum = colnum + 1
+	    	current_Cell_Width = current_Cell_Width + cell_Width #800
+            	self.countRedPixels(current_Cell_Width, current_Cell_Height, colnum, impix, pix)
+	    	previous_Height = imgh
+	    	previous_Width = 0
+	    	current_Cell_Width = 0
+	    	current_Cell_Height = current_Cell_Height + cell_Height #600
+	    	current_Cell_Width = current_Cell_Width + cell_Width #200
+	    	colnum = colnum + 1
+            	self.countRedPixels(current_Cell_Width, current_Cell_Height, colnum, impix, pix)
+            	colnum = colnum + 1
+	    	current_Cell_Width = current_Cell_Width + cell_Width #400
+            	self.countRedPixels(current_Cell_Width, current_Cell_Height, colnum, impix, pix)
+            	colnum = colnum + 1
+	    	current_Cell_Width = current_Cell_Width + cell_Width #600
+            	self.countRedPixels(current_Cell_Width, current_Cell_Height, colnum, impix, pix)
+            	colnum = colnum + 1
+	    	current_Cell_Width = current_Cell_Width + cell_Width #800
+            	self.countRedPixels(current_Cell_Width, current_Cell_Height, colnum, impix, pix)
+	    	previous_Height = imgh
+	    	previous_Width = 0
+	    	colnum = 0
+	    	idr.openIDR()
+		data = ""
+            	while colnum<16:
+                	data = data + str(image_Data[colnum])+","
+			colnum = colnum + 1
+	    	data = data + "?\n"
             	idr.writeToIDR(data)
+	    	terminators = "%\n%\n%"
+	    	idr.writeToIDR(terminators)
 	    	image_Data = None
-        	idr.closeIDR()
+	    	colnum = 0
+            	idr.closeIDR()
 
 		

@@ -14,13 +14,12 @@ class DataRecorder(object):
 		global  imageDataRecorderFile
 		if not os.path.exists("IDR.arff"):
                 	imageDataRecorderFile = open("IDR.arff", "w")
-			#imageDataRecorderFile = open("IDR_train.arff", "w")
-			schema = ["@relation direction"+"\n\n"+"@attribute redpixelinfirsthalf  real"+"\n"+"@attribute redpixelinsecondhalf real"+"\n"+"@attribute class"+"\t"+"{RT,LT,TJ,CJ,ST}"+"\n\n"+"@data"+"\n"]
+			schema = ["@relation direction"+"\n\n"+"@attribute redpixelinfirstblock numeric"+"\n"+"@attribute redpixelinsecondblock numeric"+"\n"+"@attribute redpixelinthirdblock numeric"+"\n"+"@attribute redpixelinfourthblock numeric"+"\n"+"@attribute redpixelinfifthblock numeric"+"\n"+"@attribute redpixelinsixthblock numeric"+"\n"+"@attribute redpixelinseventhblock numeric"+"\n"+"@attribute redpixelineightblock numeric"+"\n"+"@attribute redpixelinninthblock numeric"+"\n"+"@attribute redpixelintenthblock numeric"+"\n"+"@attribute redpixelineleventhblock numeric"+"\n"+"@attribute redpixelintwelvethblock numeric"+"\n"+"@attribute redpixelinthirteenthblock numeric"+"\n"+"@attribute redpixelinfourteenthblock numeric"+"\n"+"@attribute redpixelinfifteenthblock numeric"+"\n"+"@attribute redpixelinsixteenthblock numeric"+"\n"+"@attribute class"+"\t"+"{RT,LT,TJ,CJ,ST}"+"\n\n"+"@data"+"\n"]
 			self.writeToIDR(schema)
 
-        	else:
+        	'''else:
         		imageDataRecorderFile = open("IDR.arff", "a+")
-			#imageDataRecorderFile = open("IDR_train.arff", "a+")
+			#imageDataRecorderFile = open("IDR_train.arff", "a+")'''
 	
 	def writeToFDR(self, data):
 		global finchDataRecorderFile

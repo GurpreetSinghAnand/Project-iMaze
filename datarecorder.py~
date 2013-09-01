@@ -15,7 +15,7 @@ class DataRecorder(object):
 		if not os.path.exists("IDR.arff"):
                 	imageDataRecorderFile = open("IDR.arff", "w")
 			#imageDataRecorderFile = open("IDR_train.arff", "w")
-			schema = ["@relation direction"+"\n\n"+"@attribute redpixelinfirsthalf  real"+"\n"+"@attribute redpixelinsecondhalf real"+"\n"+"@attribute class"+"\t"+"{RT","LT","TJ","CJ","ST}"+"\n\n"+"@data"+"\n"]
+			schema = ["@relation direction"+"\n\n"+"@attribute redpixelinfirsthalf  real"+"\n"+"@attribute redpixelinsecondhalf real"+"\n"+"@attribute class"+"\t"+"{RT,LT,TJ,CJ,ST}"+"\n\n"+"@data"+"\n"]
 			self.writeToIDR(schema)
 
         	else:

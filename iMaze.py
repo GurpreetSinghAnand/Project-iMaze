@@ -2,6 +2,7 @@ import pyfinch
 from imageprocessing import ImageProcessing
 from camera import Camera
 from datarecorder import DataRecorder
+from classifier import DirectionClassifier
 import cv
 import datetime
 import time
@@ -76,13 +77,17 @@ class iMaze(object):
 	fdr.writeToFDR(finchStatus)
 	fdr.closeFDR()
        
-	cam = Camera(now)
-	cam.setCamera()
-	cam.startCamera()
-	cam.writeCameraStatus()
-	imp = ImageProcessing(cam.getCamera(),now)
+	#cam = Camera(now)
+	#cam.setCamera()
+	#cam.startCamera()
+	#cam.writeCameraStatus()
+	#imp = ImageProcessing(cam.getCamera(),now)
 	while True:		
-		imp.captureRGBImage()
-		imp.convertRGBtoGS()
-		imp.convertGStoOtsu()
-		imp.generatePixelData()
+		#imp.captureRGBImage()
+		#imp.convertRGBtoGS()
+		#imp.convertGStoOtsu()
+		#imp.generatePixelData()
+		classify = DirectionClassifier()
+		direction = classify.predict("IDR.arff")
+		print direction		
+		break

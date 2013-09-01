@@ -1,0 +1,16 @@
+Classifier is Loaded
+java -cp /usr/share/java/weka.jar:/usr/share/java/libsvm.jar weka.classifiers.trees.J48 -p 0  -l "/tmp/tmpSp6ZVc" -T "IDR.arff"
+stdout:
+
+
+=== Predictions on test data ===
+
+ inst#     actual  predicted error prediction
+     1        1:?       5:ST       1 
+     2        1:?       2:LT       1 
+
+
+stderr:
+
+query_variables: ['class']
+LT
